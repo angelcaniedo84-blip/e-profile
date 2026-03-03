@@ -1,11 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {background-color: pastel blue;}
-h1 {color: blue;}
-p  {color: red;}
-</style>
-</head>
-<body>
-</html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+}
+
+/* Card Design */
+.card {
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Button Style */
+button {
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #2e59d9;
+}
